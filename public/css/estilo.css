@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+.back {
+  background-color: #b11313;
+}
+.barra {
+  height: 10vh;
+}
+.logo {
+  color: black;
+  background-color: white;
+}
+.video-responsive {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  position: relative;
+}
+.video-responsive iframe,
+.video-responsive object,
+.video-responsive embed {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.texto{
+    background-color: #2b3784;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: larger;
+  color: black;
+}
